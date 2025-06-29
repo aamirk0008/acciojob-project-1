@@ -43,6 +43,10 @@ nav {
 nav h1 a {
   color: black;
 }
+nav h1 a:hover {
+  font-weight: bolder;
+  transition: ease-in-out 0.3s;
+}
 nav ul {
   display: flex;
   list-style: none;
@@ -52,6 +56,11 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  transition: ease-in-out 0.3s;
+  text-decoration: underline;
 }
 #intro-section {
   display: flex;
